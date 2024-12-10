@@ -1,0 +1,150 @@
+/* Importation des polices futuristes */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+/* Styles généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1a1a2e;
+}
+
+header {
+    background: linear-gradient(135deg, #0078D7, #001f3f);
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5em;
+    margin: 0;
+    color: #fff;
+}
+
+header p {
+    margin-top: 1em;
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+/* Présentation */
+#presentation {
+    margin: 2em auto;
+    max-width: 900px;
+    padding: 2em;
+    background: #162447;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#presentation h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #00d4ff;
+}
+
+#presentation .content {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+#presentation img {
+    width: 40%;
+    border-radius: 12px;
+}
+
+/* Timeline */
+#timeline {
+    margin: 2em auto;
+    max-width: 900px;
+    padding: 2em;
+    background: #1f4068;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#timeline h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ffcc29;
+}
+
+.timeline {
+    display: grid;
+    gap: 1em;
+}
+
+.timeline .event {
+    padding: 1em;
+    background: #162447;
+    border-left: 4px solid #00d4ff;
+    border-radius: 8px;
+}
+
+.timeline .event h3 {
+    color: #ffcc29;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Team */
+#team {
+    margin: 2em auto;
+    max-width: 900px;
+    padding: 2em;
+    background: #162447;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#team h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #f95959;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.member {
+    background: #1f4068;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.member h3 {
+    margin: 0.5em 0;
+    color: #ffcc29;
+}
+
+/* Lien GitHub */
+#lien-projet {
+    margin: 2em auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+#lien-projet a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #0078D7, #001f3f);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#lien-projet a.btn:hover {
+
